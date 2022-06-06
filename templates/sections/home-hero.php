@@ -20,14 +20,6 @@
 	
 	</div>
 
-	<div class="row justify-content-center">       
-		
-		<div class="col">
-			
-			<div class="mouse-wheel"></div>
 
-		</div>
-
-	</div>
 
 </div>

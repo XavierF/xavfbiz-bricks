@@ -7,7 +7,7 @@
  * https://kinsta.com/knowledge_categories/general-wordpress/
  */
 
-add_action( 'init', 'brk_disable_gutenberg' );        // https://metabox.io/disable-gutenberg-without-using-plugins/
+//add_action( 'init', 'brk_disable_gutenberg' );        // https://metabox.io/disable-gutenberg-without-using-plugins/
 add_action( 'init', 'brk_disable_emojis' );           // https://wordpress.stackexchange.com/q/185577/
 add_action( 'init', 'brk_disable_oembed' );           // https://wordpress.stackexchange.com/q/211467/
 // add_action('init', 'brk_disable_query_strings');    // https://stackoverflow.com/q/38288476/
