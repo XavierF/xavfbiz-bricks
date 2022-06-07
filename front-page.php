@@ -23,7 +23,7 @@
 			'posts_per_page'    => 3,
 		);
 
-		get_template_part( 'templates/sections/home', 'news', $args );
+		get_template_part( 'templates/sections/home', 'latest-posts', $args );
 
 		?>
 

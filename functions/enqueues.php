@@ -12,7 +12,7 @@ if ( ! function_exists( 'brk_styles_scripts' ) ) {
 
 		// --- CSS ---
 
-		wp_enqueue_style( 'google-fonts', '//fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap', false, $theme_version, 'all' );
+		wp_enqueue_style( 'google-fonts', '//fonts.googleapis.com/css2?family=advent+pro|Oswald&display=swap', false, $theme_version, 'all' );
 
 		wp_enqueue_style( 'brk-styles', get_template_directory_uri() . '/dist/css/style.min.css', false, $theme_version, 'all' );
 
