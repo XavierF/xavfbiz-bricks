@@ -14,7 +14,7 @@
 
 
  
-	<section id="section-news">
+	<section id="section-latest">
 
 		<?php
 
