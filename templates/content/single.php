@@ -2,9 +2,7 @@
 
 	<h1><?php the_title(); ?></h1>
 
-	<p><?php the_author(); ?> - <?php the_time( get_option( 'date_format' ) ); ?></p>
-
-	<p><?php the_category( ', ' ); ?> - <?php the_tags( '', ', ', '' ); ?></p>
+	
 
 	<?php the_post_thumbnail( 'brk_single', array( 'class' => 'img-fluid' ) ); ?>
 
@@ -25,5 +23,8 @@
 		?>
 
 	</div>
+	<p><?php the_author(); ?> - <?php the_time( get_option( 'date_format' ) ); ?></p>
+
+	<p><?php the_category( ', ' ); ?> - <?php the_tags( '', ', ', '' ); ?></p>
 
 </article> <!-- #post-<?php the_ID(); ?> -->

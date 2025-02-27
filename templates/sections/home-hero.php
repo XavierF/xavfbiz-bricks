@@ -1,3 +1,6 @@
+
+
+
 <img class="is-background" src='<?php the_post_thumbnail_url( 'brk_big' ); ?>' alt='<?php brk_thumbnail_alt(); ?>' loading="lazy" />
 
 <div class="container d-flex flex-column vh-100 text-center text-light">
