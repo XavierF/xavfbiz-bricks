@@ -27,10 +27,15 @@ if ( ! function_exists( 'brk_styles_scripts' ) ) {
 
 		wp_enqueue_script( 'brk-scripts', get_template_directory_uri() . '/dist/js/scripts.min.js', false, $theme_version, true );
 
-	}
+
+
+	
+
+
+}
 }
 
-add_action( 'wp_enqueue_scripts', 'brk_styles_scripts' );
+add_action( 'wp_enqueue_scripts', 'brk_styles_scripts', 10);
 
 
 // Disable this action if not loading Google Fonts from their external server
