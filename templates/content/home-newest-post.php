@@ -2,7 +2,7 @@
 
 	<div class="row text-center pb-4">
 	
-		<h2><?php esc_html_e( 'News', 'bricks' ); ?></h2>
+		<h2><?php esc_html_e( 'Latest Entries', 'bricks' ); ?></h2>
 	
 	</div>
 	
