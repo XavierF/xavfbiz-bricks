@@ -1,0 +1,113 @@
+
+
+// ----------------------THEME COLORS XAVF.BIZ -----------------//
+
+//$moonLite: #F4EEF9
+$paleWhite: #B7B5C3
+$lightGrey: #7F7F7F
+$darkGrey: #5B5759
+$iron: #4C4C4C
+$tungsten: #333333
+$deepBlue: #1E008C
+//$midniteBlue: rgba(20, 23, 49, 0.79)  //#141731
+
+//------------------------ TYPOGRAPHY ----------------------------//
+
+body, html
+  -webkit-font-smoothing: antialiased
+  font-family: 'Advent Pro', sans-serif !important
+  a
+    font-family: 'Advent Pro', sans-serif !important    
+   
+  p
+    font-family: 'Advent Pro', sans-serif !important    
+    color: $tungsten
+
+  h1, h2, h3, h4, h5, h6 
+    font-family: 'Oswald', sans-serif !important
+    font-weight: normal
+    font-style: normal
+    text-rendering: optimizeLegibility
+    margin-top: 0
+    margin-bottom: 0.5rem
+    line-height: 1.4
+//    color: $tungsten !important
+
+  .btn
+    font-family: 'Oswald', sans serif !important
+
+//------------------------ TOP NAV ----------------//
+
+.navbar-brand
+  font-size: 1rem !important
+//.nav-link
+// color: $white
+
+
+
+// ---------------------- FRONT PAGE --------------------------- //
+
+
+
+
+
+
+
+//----------------------- HERO UNIT -----       ---------//
+.masthead
+  height: 30vw
+
+
+//----------------------- POSTS LAYOUT ------------------//
+
+.card-body
+  padding-left: .75rem !important
+  padding-right: .75rem !important
+
+
+.post-title
+  height: 68px
+  width: 100%
+
+.post-info
+  min-height: 100px
+  width: 100%
+
+p.tag
+ text-indent: 2.3em hanging 
+
+.btn-sm  
+  margin-bottom: .20rem
+.img-thumb
+ height: 250px !important
+ width: 100% !important
+
+.btn-container
+ @extend .d-flex, .mx-auto  
+ @extend .py-2
+
+
+// ------------- AJAX LOAD MORE ----------------------------
+.alm-btn-wrap
+ @extend .d-flex, .justify-content-center
+ @extend .py-5
+
+ //------------- SINGLE POST LAYOUT ----   ------------------
+
+.wp-block-embed__wrapper 
+  display: flex 
+  flex-direction: row
+  position: relative
+  width: 100%
+  height: 56.25vw
+  max-height: calc(100vh - 169px)
+  overflow-x: clip
+
+iframe 
+  display: flex 
+  flex-direction: row
+  position: relative
+  width: 100%
+  overflow-x: clip
+
+
