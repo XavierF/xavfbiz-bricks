@@ -34,9 +34,8 @@
 
 	<div class="container">
 
-		<?php brk_breadcrumbs(); ?>
 
-		<div class="row py-5">
+		<div class="row pt-2 pb-5">
 
 			<div id="article-wrapper" class="col">       
 

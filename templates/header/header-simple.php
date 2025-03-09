@@ -26,20 +26,15 @@
 					'container'         => '',
 					'container_class'   => '',
 					'container_id'      => '',
-					'menu_class'        => 'header-menu nav navbar-nav my-3 my-lg-0 ms-lg-2 me-auto',
+					'menu_class'        => 'header-menu nav navbar-nav my-3 my-lg-0 ms-md-auto ',
 					'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
 					'walker'            => new WP_Bootstrap_Navwalker(),
 				)
 			);
+		?>	
+</div><!-- #simple-menu -->
 
-			get_search_form();
 
-			if ( class_exists( 'ACF' ) ) {
-				get_template_part( 'templates/components/socialicons', '' );
-			};
-
-			?>
-		</div>
 
 	</div>
 

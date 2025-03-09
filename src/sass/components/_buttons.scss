@@ -34,6 +34,7 @@
 
 .btn-outline-tag {
    @include button-bg-outline($info);
+   font-family: 'Advent Pro';
    color: $info;
 }
 
@@ -42,6 +43,20 @@
   padding: .2rem .3rem .04rem;
   vertical-align: middle;
   line-height: 1.4;
+}
+
+.btn-sub {
+  @include button-bg($info);
+  color: $moonLite;
+  padding: .25rem 1rem !important;
+
+}
+
+.btn-outline-close {
+   @include button-bg-outline($info);
+   color: $info;
+   padding: .35rem .75rem .25rem;
+   line-height: 1;
 }
 
 

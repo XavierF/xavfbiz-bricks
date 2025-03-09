@@ -9,6 +9,7 @@
 // --- Bootstrap Custom Theme ---
 
 @import '../../node_modules/bootstrap/scss/functions';
+@import '../custom_sass/custom.sass'; //xavfbiz theme
 @import 'theme'; // Bootstrap custom theme variables
 @import '../../node_modules/bootstrap/scss/variables';
 @import '../../node_modules/bootstrap/scss/mixins';
@@ -29,6 +30,7 @@
 
 @import 'globals';
 @import 'components/backtotop';
+@import 'components/buttons';
 @import 'header/header';
 @import 'footer/footer';
 // @import 'footer/columns';

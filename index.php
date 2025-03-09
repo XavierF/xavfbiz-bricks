@@ -2,15 +2,14 @@
 
 <main id="content-wrapper">
 
-	<div class="container">
+<section id="post-header" class="has-img-background container-fluid" ><!-- post header image -->
 
-		<?php brk_breadcrumbs(); ?>
+		<img class="is-background img-fluid" src='<?php the_post_thumbnail_url( 'brk_big' ); ?>' alt='<?php brk_thumbnail_alt(); ?>' loading="lazy" /> 
 
-		<div class="row py-5">
+		<div class="container post-masthead d-flex align-items-end text-light">
 
-			<div id="loop-wrapper" class="col">
-				   
-				<h1 class="mb-5 border-bottom">
+			<div class="row justify-content-start">
+				<h4 class="post-title text-uppercase">
 					<?php
 					if ( is_home() ) {
 
@@ -27,12 +26,28 @@
 
 					}
 					?>
-				</h1>
+				</h4>
+			</div><!--title -->
+
+	</div><!--container--->
+
+</section><!--post-header-->
+
+	<div class="container">
+
+
+		<div class="row py-5">
+
+			<div id="loop-wrapper" class="col">
+				   
+				
 			
 				<?php
 				if ( have_posts() ) :
 					while ( have_posts() ) :
 						the_post();
+
+
 
 						get_template_part( 'templates/content/loop', '' );
 

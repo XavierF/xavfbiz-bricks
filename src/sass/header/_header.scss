@@ -16,15 +16,49 @@
   }
 }
 
-.home {
+.home, .archive, .post-template-single-embed {
   #header-wrapper {
     position: fixed;
     right: 0;
     left: 0;
     background-color: transparent !important;
+    transition: .5s ease-in-out;
 
     &.header-scrolled {
-      background-color: $dark !important;
+      background-color: rgba(54, 62, 98, 0.70) !important;
+      transition: .5s ease-in-out;
     }
   }
+}
+
+.search, .search-results, .search-no-results {
+  
+  #header-wrapper {
+    position: fixed;
+    right: 0;
+    left: 0;
+    background-color: rgba(54, 62, 98, 1) !important;
+    transition: .5s ease-in-out;
+
+    &.header-scrolled {
+      background-color: rgba(54, 62, 98, 0.70) !important;
+      transition: .5s ease-in-out;
+    }
+   }
+
+   .is-back-ground {
+    display: none;
+   }
+   .has-img-background {
+      
+  }
+  .post-masthead {
+    height: 10vw;
+  }
+  .post-title {
+    color: $dark;
+  }
+
+
+  
 }

@@ -7,6 +7,9 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
 	<?php wp_head(); ?>
+
+
+	<!-- This website is dedicated to my Mom &:hearts Xavier_F -->
 </head>
 
 <body <?php body_class(); ?>> 

@@ -9,7 +9,7 @@ $darkGrey: #5B5759
 $iron: #4C4C4C
 $tungsten: #333333
 $deepBlue: #1E008C
-//$midniteBlue: rgba(20, 23, 49, 0.79)  //#141731
+$midniteBlueText: #141731
 
 //------------------------ TYPOGRAPHY ----------------------------//
 
@@ -21,7 +21,7 @@ body, html
    
   p
     font-family: 'Advent Pro', sans-serif !important    
-    color: $tungsten
+    
 
   h1, h2, h3, h4, h5, h6 
     font-family: 'Oswald', sans-serif !important
@@ -31,15 +31,17 @@ body, html
     margin-top: 0
     margin-bottom: 0.5rem
     line-height: 1.4
-//    color: $tungsten !important
+    a
+     font-family: 'Oswald', sans-serif !important
 
-  .btn
-    font-family: 'Oswald', sans serif !important
 
 //------------------------ TOP NAV ----------------//
 
-.navbar-brand
-  font-size: 1rem !important
+.navbar-brand, .nav-link
+  font-size: 1rem 
+  font-family: Oswald
+  font-weight: 100
+  letter-spacing: .2em
 //.nav-link
 // color: $white
 
@@ -53,12 +55,28 @@ body, html
 
 
 
-//----------------------- HERO UNIT -----       ---------//
+//----------------------- HERO UNIT -------------------------------//
 .masthead
   height: 30vw
 
 
-//----------------------- POSTS LAYOUT ------------------//
+//----------------------- HOME PAGE POSTS LAYOUT ------------------//
+
+.home
+  .post
+    .has-text-align-right
+      display: none
+
+.archive
+  .has-text-align-right
+    display: none
+  .wp-block-embed
+    margin-top: 0 !important
+
+
+.entry-footer 
+  .tag
+    text-indent: 2.65em hanging !important
 
 .card-body
   padding-left: .75rem !important
@@ -69,45 +87,123 @@ body, html
   height: 68px
   width: 100%
 
-.post-info
-  min-height: 100px
-  width: 100%
 
-p.tag
- text-indent: 2.3em hanging 
-
-.btn-sm  
-  margin-bottom: .20rem
 .img-thumb
  height: 250px !important
  width: 100% !important
 
-.btn-container
- @extend .d-flex, .mx-auto  
- @extend .py-2
-
-
-// ------------- AJAX LOAD MORE ----------------------------
-.alm-btn-wrap
- @extend .d-flex, .justify-content-center
- @extend .py-5
-
- //------------- SINGLE POST LAYOUT ----   ------------------
-
-.wp-block-embed__wrapper 
-  display: flex 
-  flex-direction: row
-  position: relative
+.post-info
+  min-height: 100px
   width: 100%
-  height: 56.25vw
-  max-height: calc(100vh - 169px)
-  overflow-x: clip
+
+.card-subtitle
+  color: $midniteBlueText
+
+.card-subtitle .tag
+ text-indent: 2.65em hanging !important
+ height: 60px
+  
+
+.btn-container
+ @extend .d-flex !optional
+ @extend .mx-auto  !optional
+ @extend .py-2 !optional
+
+
+// ------------- AJAX LOAD MORE ----------------------------------
+.alm-btn-wrap
+ @extend .d-flex, .justify-content-center !optional
+ @extend .py-5 !optional
+
+ //------------- POST TEMPLATE SINGLE EMBED ----------------------
+
+.post-masthead 
+  height: 20vw
+
+
+.wp-block-embed
+  @extend .mt-4 !optional
+
 
 iframe 
-  display: flex 
-  flex-direction: row
-  position: relative
-  width: 100%
-  overflow-x: clip
+   display: flex 
+   flex-direction: row
+   position: relative
+   width: 100%
+   height: 100%
+   overflow-x: clip
+   padding-top: 0
+
+.post-template-single-embed
+  iframe 
+   display: flex 
+   flex-direction: row
+   position: relative
+   width: 100%
+   height: auto
+   overflow-x: clip
+
+//-------------------------- MODAL SEARCH ------------------------
+
+body.modal-open 
+    padding-right: 0px !important
+
+.modal-header
+  background: $midniteBlueText
+  h5
+    color: #F4EEF9
+
+.modal-header .btn-close
+  margin-left: 0 !important
+  color: F4EEF9 
+
+.search-form
+  min-height: 15rem
+
+.form-control
+  input:-webkit-autofill  
+    -webkit-box-shadow: 0 0 0 1000px $deepBlue inset !important
+    -webkit-text-fill-color: $paleWhite
+  input:-webkit-autofill:focus 
+    -webkit-box-shadow: 0 0 0 1000px $deepBlue inset !important
+    -webkit-text-fill-color: $paleWhite
+
+//input:-webkit-autofill,
+//input:-webkit-autofill:hover, 
+//input:-webkit-autofill:focus,
+//textarea:-webkit-autofill,
+//textarea:-webkit-autofill:hover,
+//textarea:-webkit-autofill:focus,
+//select:-webkit-autofill,
+//select:-webkit-autofill:hover,
+//select:-webkit-autofill:focus 
+// border: 1px solid green
+// -webkit-text-fill-color: green
+// -webkit-box-shadow: 0 0 0px 1000px #000 inset
+// transition: background-color 5000s ease-in-out 0s
+
+
+
+//-------------------------- FOOTER NAV ---------------------------
+
+a.navbar-brand.fw-light
+   font-family: 'Advent Pro'
+   font-size: .8rem !important
+   letter-spacing: .2em
+
+.footer-menu.navbar-nav 
+  a 
+   font-family: 'Advent Pro'
+   font-size: .8rem
+   letter-spacing: .2em
+
+  
+
+
+
+
+
+
+
 
 

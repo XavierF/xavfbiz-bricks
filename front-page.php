@@ -4,7 +4,7 @@
 
 <main id="content-wrapper">
 
-	<section id="section-hero" class="has-img-background" >
+	<section id="section-hero" class="has-img-background container-fluid" ><!-- main header image -->
 		<?php
 		get_template_part( 'templates/sections/home', 'hero' );
 		?>
@@ -17,19 +17,20 @@
 		$args = array(
 			'post_type' => 'post',
 			'posts_per_page' => '1'
+
 		);
 
-		get_template_part( 'templates/sections/home', 'newest-post', $args );
+		get_template_part( 'templates/content/home', 'newest-post', $args );
 
 		?>
 
   </section>	
 
-	<section id="section-latest">
+	<section id="section-posts">
 
 		<?php
 
-		get_template_part( 'templates/sections/home', 'latest-posts' );
+		get_template_part( 'templates/content/home', 'latest-posts' );
 
 		?>
 

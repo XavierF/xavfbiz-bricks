@@ -9,12 +9,14 @@
 			<div class="col-sm-8">
 
 				<h1 class="mb-5 text-center">
-					<?php esc_html_e( 'Oops, that page can&#39;t be found', 'bricks' ); ?>
+					<?php esc_html_e( '404 : NOT FOUND!', 'bricks' ); ?>
 				</h1>
 
 				<h2 class="mb-5 text-center">
-					<?php esc_html_e( 'Error 404', 'bricks' ); ?>
+					<?php esc_html_e( 'Error Code: 404', 'bricks' ); ?>
 				</h2>
+
+				<p class="mb-5 text-center"><a rel="home" href="<?php echo esc_url( home_url( '/' ) ); ?>" ><?php esc_html_e( 'Go Back To The Homepage', 'bricks' ); ?> </a></p>
 
 			</div>
 

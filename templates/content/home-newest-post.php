@@ -1,4 +1,4 @@
-<div class="container py-5">
+<div class="container pb-2 pt-5 g-0">
 
 	<div class="row text-center pb-4">
 	
@@ -6,10 +6,9 @@
 	
 	</div>
 	
-	<div class="row-">
+	<div class="row g-0">
 	
 		<?php
-
 
 		$brk_cards_query = new WP_Query( $args );
 
@@ -17,34 +16,25 @@
 		// WP Loop
 		while ( $brk_cards_query->have_posts() ) :
 			$brk_cards_query->the_post();
-
 			?>
 	
-		
+	<div class="container"><!--post container -->
 
-			<div class="container">
 
-		<?php brk_breadcrumbs(); ?>
-
-		<div class="row py-5">
+		<div class="row py-3 g-0">
 
 			<div id="article-wrapper" class="col">       
 
 				<?php get_template_part( 'templates/content/front-page-single', '' ); ?>
 
-			
-					
-				<?php
-				if ( comments_open() || get_comments_number() ) {
-					comments_template(); }
-				?>
+				
 			
 			</div> <!-- #article-wrapper -->
 
 
-		</div>
+		</div><!-- .row .g-o -->
 
-	</div>
+	</div><!--post container -->
 	
 			<?php
 		endwhile;

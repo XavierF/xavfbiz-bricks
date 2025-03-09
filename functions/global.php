@@ -33,7 +33,7 @@ function brk_svg_mimetype( $data = null, $file = null, $filename = null, $mimes 
 add_filter( 'wp_check_filetype_and_ext', 'brk_svg_mimetype', 10, 4 );
 
 
-// --- Excerpt lenght ---
+// --- Excerpt length ---
 
 function brk_excerpt_length( $length ) {
 	return 40;

@@ -11,10 +11,7 @@
         <p>Modal body text goes here.</p>
    <?php get_search_form(); ?>
 
-    <?php if ( class_exists( 'ACF' ) ) {
-        get_template_part( 'templates/components/socialicons', '' );
-      };
-?>
+   
 
       </div>
       <div class="modal-footer">

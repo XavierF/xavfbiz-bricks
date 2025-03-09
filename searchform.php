@@ -4,19 +4,12 @@ $searchtext = esc_html__( 'Search', 'bricks' );
 
 ?>
 
-<form class="search-form" action="<?php echo esc_url_raw( home_url() ); ?>" method="get">
+<form class="search-form w-100" action="<?php echo esc_url_raw( home_url() ); ?>" method="get">
+		
+	<div class="input-group input-group-sm my-4">
+  	<input type="search" class="form-control" placeholder="<?php echo esc_attr( $searchtext ); ?>" aria-label="<?php echo esc_attr( $searchtext ); ?>" name="s">
 
-	<div class="row g-2">
-
-		<div class="col">
-			<input class="form-control form-control-sm" type="search" placeholder="<?php echo esc_attr( $searchtext ); ?>"
-				aria-label="<?php echo esc_attr( $searchtext ); ?>" name="s">
-		</div>
-
-		<div class="col-3">
-			<button class="btn btn-sm btn-outline-primary" type="submit" aria-label="<?php echo esc_attr( $searchtext ); ?>"><i class="fa-solid fa-magnifying-glass"></i></button>
-		</div>
-
-	</div>
+ 	 <button class="btn btn-sub" type="submit" id="find">Find</button>
+	</div><!-- .input-group -->
 
 </form>

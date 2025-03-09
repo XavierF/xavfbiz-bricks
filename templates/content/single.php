@@ -4,7 +4,7 @@
 
 	
 
-	<?php the_post_thumbnail( 'brk_single', array( 'class' => 'img-fluid' ) ); ?>
+	<?php the_post_thumbnail( 'brk_single', array( 'class' => 'img-fluid' ) ); ?>sup?
 
 	<div>
 	
@@ -23,8 +23,8 @@
 		?>
 
 	</div>
-	<p><?php the_author(); ?> - <?php the_time( get_option( 'date_format' ) ); ?></p>
+	<p><small><?php the_author(); ?> - <?php the_time( get_option( 'date_format' ) ); ?></small>s</p>
 
-	<p><?php the_category( ', ' ); ?> - <?php the_tags( '', ', ', '' ); ?></p>
+	<p><small><?php the_category( ', ' ); ?> - Tags: <?php the_tags( '', ' ', '' ); ?></small></p>
 
 </article> <!-- #post-<?php the_ID(); ?> -->
