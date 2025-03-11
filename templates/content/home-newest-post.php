@@ -1,4 +1,5 @@
-<div class="container pb-2 pt-5 g-0">
+
+<div class="container pb-2 md-pt-5 g-0">
 
 	<div class="row text-center pb-4">
 	

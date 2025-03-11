@@ -5,8 +5,6 @@
  *
  */
 
-
-
 // --- Color system ---
 $secondary: #4C4C4C;
 $light:     #FFF;
@@ -38,7 +36,9 @@ $padding-x-sm:          .25rem;
 
 $input-bg:              $moonLite;
 
-$box-shadow:                  0 2rem .5rem rgba($info, .15);
+$box-shadow:            0 2rem .5rem rgba($info, .15);
+
+$border-color:         rgba(54, 62, 98, 0.40);
 //$navbar-brand-color:    $moonLite!important;
 
 // --- Typography ---
@@ -338,4 +338,5 @@ $input-border-radius:                   $radius-0;
 $input-border-radius-sm:                $radius-0;
 $input-border-radius-lg:                $radius-0;
 $input-focus-border-color:              tint-color($info, 50%);
+$input-focus-boxshadow:                 $box-shadow;
 $form-select-bg:                        $input-bg;

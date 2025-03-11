@@ -35,19 +35,14 @@
 
 	<div class="container">
 
+		<div class="row py-5 justify-content-start">
 
-		<div class="row py-5">
-
-			<div id="loop-wrapper" class="col">
+			<div id="loop-wrapper" class="col-sm-8 pt-4">
 				   
-				
-			
 				<?php
 				if ( have_posts() ) :
 					while ( have_posts() ) :
 						the_post();
-
-
 
 						get_template_part( 'templates/content/loop', '' );
 

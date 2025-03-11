@@ -38,7 +38,7 @@
       <div class="modal-body d-flex justify-content-center">
         <?php get_search_form(); ?>
       </div>
-      <div class="modal-footer d-flex mx-auto">
+      <div class="modal-footer d-flex justify-content-center">
         <button type="button" class="btn btn-outline-close" data-bs-dismiss="modal">Close This Window</button>
        
       </div>

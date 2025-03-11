@@ -102,6 +102,11 @@ iframe {
   overflow-x: clip;
 }
 
+#sidebar-main-wrapper .sidebar-dark {
+  background: #2900bf;
+  color: #B7B5C3;
+}
+
 body.modal-open {
   padding-right: 0px !important;
 }
@@ -122,13 +127,8 @@ body.modal-open {
   min-height: 15rem;
 }
 
-.form-control input:-webkit-autofill {
-  -webkit-box-shadow: 0 0 0 1000px #1E008C inset !important;
-  -webkit-text-fill-color: #B7B5C3;
-}
-.form-control input:-webkit-autofill:focus {
-  -webkit-box-shadow: 0 0 0 1000px #1E008C inset !important;
-  -webkit-text-fill-color: #B7B5C3;
+.form-control:focus {
+  box-shadow: 0 0 0 0.25rem rgba(54, 62, 98, 0.15) !important;
 }
 
 a.navbar-brand.fw-light {
@@ -253,7 +253,7 @@ a.navbar-brand.fw-light {
   --bs-highlight-bg: #fff3cd;
   --bs-border-width: 1px;
   --bs-border-style: solid;
-  --bs-border-color: #dee2e6;
+  --bs-border-color: rgba(54, 62, 98, 0.4);
   --bs-border-color-translucent: rgba(0, 0, 0, 0.175);
   --bs-border-radius: 0.375rem;
   --bs-border-radius-sm: 0.25rem;
@@ -12300,6 +12300,13 @@ html {
   max-height: 500px;
 }
 
+#sidebar-main-wrapper {
+  background: rgba(54, 62, 98, 0.7);
+  color: #F4EEF9;
+}
+#sidebar-main-wrapper a {
+  color: #F4EEF9;
+}
 #sidebar-main-wrapper ul {
   padding-left: 0;
   list-style-type: none;
