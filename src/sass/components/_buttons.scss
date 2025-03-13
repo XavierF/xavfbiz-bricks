@@ -10,7 +10,9 @@
 .btn-post {
    @include button-bg($info);
    color: $moonLite;
-   padding: .55rem .75rem .375rem
+   padding: .55rem .75rem .375rem;
+   line-height: 1.7rem !important;
+
 }
 
 

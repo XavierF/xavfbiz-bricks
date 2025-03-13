@@ -10,7 +10,7 @@
 		?>
 	</section> <!-- #section-hero -->
 
-  </main>
+  
   <section id="newest-blog entry">
   	<?php
 

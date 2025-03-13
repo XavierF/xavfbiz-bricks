@@ -23,25 +23,30 @@
 
 	</div><!--.entry-content -->
 
-	<div class="entry-footer row">
+	<div class="entry-footer"> 
+	<div class="row">
 
     
-			<p class="card-text"><small class="text-muted"><?php esc_html_e( 'Posted By ', 'bricks' ); the_author(); ?>
+		<div class="col">	<p class="card-text"><small class="text-muted"><?php esc_html_e( 'Posted By ', 'bricks' ); the_author(); ?>
 						  -  <?php the_time( get_option( 'date_format' ) ); ?> In: <?php the_category( ', ' ); ?> </small></p>
 
+  	</div><!-- .col -->
+</div>
+<div class="row">
+		<div class="col-md">				  
 
-		<div class="col d-flex align-items-md-end">				  
+			<div class="d-table-cell pe-1"><p>Tags:</p> </div>
 
-			<div class="tag m-0"><p class="d-inline h-100">Tags:</p> <?php the_tags( '', ' ', '' ); ?></div>
+			<div class="d-table-cell">	<?php the_tags( '', ' ', '' ); ?></div>
 
 		</div><!-- .col -->
 
-		<div class="col d-flex align-items-md-end justify-content-end">  
+		<div class="col-md pt-2 btn-post-container">  
 
- 			<a href="<?php the_permalink(); ?>" class="btn btn-post float-md-end"><?php esc_html_e( 'READ MORE',    '	bricks');?></a>
+ 			<a href="<?php the_permalink(); ?>" class="btn btn-post initial"><?php esc_html_e( 'READ MORE',    '	bricks');?></a>
 
    	</div><!-- .col -->
-
+</div>
 	</div><!--entry-footer .row-->
 
 </article> <!-- #post-<?php the_ID(); ?> -->

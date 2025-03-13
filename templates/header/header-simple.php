@@ -26,7 +26,7 @@
 					'container'         => '',
 					'container_class'   => '',
 					'container_id'      => '',
-					'menu_class'        => 'header-menu nav navbar-nav my-3 my-lg-0 ms-md-auto ',
+					'menu_class'        => 'header-menu nav navbar-nav my-0 my-lg-0 ms-md-auto ',
 					'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
 					'walker'            => new WP_Bootstrap_Navwalker(),
 				)

@@ -58,7 +58,7 @@ jQuery(document).ready(function($) {
   });
   $('.navbar-toggler').on("touchstart", function(e) { 
     e.preventDefault();
-	  	$('.fadeInOut').toggleClass('fadeInOut-hidden');
+	  	$('.fade-in-out').toggleClass('fade-in-out-hidden');
 	      
   });
 
