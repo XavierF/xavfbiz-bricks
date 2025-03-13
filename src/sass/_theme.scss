@@ -10,6 +10,7 @@ $secondary: #4C4C4C;
 $light:     #FFF;
 $midniteBlue: #141731;
 $moonLite: #F4EEF9;
+$vividBlue: #687EFF;
 //$primary: #FFFFFF;
 // $success: #fff;
    $info: #363E62;
@@ -48,7 +49,7 @@ $font-family-sans-serif: system-ui, -apple-system, 'Segoe UI', 'Advent Pro', 'He
 
   $font-family-base:              'Advent Pro';
 
-// $font-size-base:              1rem;
+   $font-size-base:              1rem;
 // $font-size-sm:                $font-size-base * .875;
 // $font-size-lg:                $font-size-base * 1.25;
 
@@ -60,11 +61,11 @@ $font-family-sans-serif: system-ui, -apple-system, 'Segoe UI', 'Advent Pro', 'He
 
 // $font-weight-base:            $font-weight-normal;
 
-$line-height-base:               1.7;
-$line-height-sm:                 1.25;
+   $line-height-base:               1.7;
+   $line-height-sm:                 1.25;
 // $line-height-lg:              2;
 
-// $h1-font-size:                $font-size-base * 2.5;
+   $h1-font-size:                $font-size-base * 2.5;
 // $h2-font-size:                $font-size-base * 2;
 // $h3-font-size:                $font-size-base * 1.75;
 // $h4-font-size:                $font-size-base * 1.5;
@@ -77,14 +78,14 @@ $line-height-sm:                 1.25;
 // $headings-line-height:        1.2;
 // $headings-color:              null;
 
-// $display-font-sizes: (
-//   1: 5rem,
-//   2: 4.5rem,
-//   3: 4rem,
-//   4: 3.5rem,
-//   5: 3rem,
-//   6: 2.5rem
-// );
+  $display-font-sizes: (
+    1: 5rem,
+    2: 4.5rem,
+    3: 4rem,
+    4: 3.5rem,
+    5: 3rem,
+    6: 2.5rem
+  );
 
 // $display-font-weight:         300;
 // $display-line-height:         $headings-line-height;
@@ -188,9 +189,9 @@ $radius-0:                       0;
 
 // https://getbootstrap.com/docs/5.0/components/navs-tabs/
 
-//$nav-link-padding-y:                .5rem;
-//$nav-link-padding-x:                1rem;
-  $nav-link-font-size:                1rem;
+  $nav-link-padding-y:                .5rem;
+//$nav-link-padding-x:                1.7rem !important;
+  $nav-link-font-size:                .9rem;
   $nav-link-font-weight:              100;
   $nav-link-font-family:              'Advent Pro';
 //$nav-link-color:                    $link-color;
@@ -216,7 +217,7 @@ $radius-0:                       0;
 //$navbar-padding-y:                  $spacer * .5;
 //$navbar-padding-x:                  null;
 //
-$navbar-nav-link-padding-x:         .8rem;
+  $navbar-nav-link-padding-x:         1.7rem;
 
 
 //
@@ -234,8 +235,8 @@ $navbar-nav-link-padding-x:         .8rem;
 //$navbar-toggler-focus-width:        $btn-focus-width;
 //$navbar-toggler-transition:         box-shadow .15s ease-in-out;
 //
-$navbar-dark-color:                   $moonLite;
-$navbar-dark-hover-color:             rgba($moonLite, .75);
+$navbar-dark-color:                   $vividBlue;
+$navbar-dark-hover-color:             rgba($vividBlue, .75);
 //$navbar-dark-active-color:          $white;
 //$navbar-dark-disabled-color:        rgba($white, .25);
 //$navbar-dark-toggler-icon-bg:       url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='#{$navbar-dark-color}' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>");
@@ -250,7 +251,7 @@ $navbar-dark-hover-color:             rgba($moonLite, .75);
 //
 //$navbar-light-brand-color:                $navbar-light-active-color;
 //$navbar-light-brand-hover-color:          $navbar-light-active-color;
-  $navbar-dark-brand-color:                 $moonLite;
+  $navbar-dark-brand-color:                 $vividBlue;
   $navbar-dark-brand-hover-color:           rgba($moonLite, .75);
   $navbar-brand-font-size:                  1rem;
 
