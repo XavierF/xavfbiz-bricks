@@ -1,9 +1,9 @@
 
 @mixin sidebar-bg($info) {
-  background: rgba(54, 62, 98, 0.70);
-  color: $moonLite;
+  background: $dark;
+  color: $vividBlue;
   a {
-   color: $moonLite;
+   color: $vividBlue;
   }
 }
 

@@ -20,6 +20,8 @@
 
 </div> <!-- #site-wrapper -->
 
+<!--<div id="ajax-dummy" button class="alm-load-more-btn more btn btn-outline-lm" type="button">LOAD MORE ENTRIES</button></div>
+</div>-->
 <!-- Begin Search Form Modal -->
 
 <div class="modal fade" id="Modal-Search" tabindex="-1" aria-labelledby="SEARCH" aria-hidden="true">
@@ -56,6 +58,8 @@ jQuery(document).ready(function($) {
     e.preventDefault();
     $('.navbar-collapse').collapse('toggle');
   });
+
+  
   $('.navbar-toggler').on("touchstart", function(e) { 
     e.preventDefault();
 	  	$('.fade-in-out').toggleClass('fade-in-out-hidden');
@@ -66,7 +70,7 @@ jQuery(document).ready(function($) {
 jQuery('li.seek a').attr('data-bs-toggle', 'modal');
  
 });
-var myModal = document.getElementId('Modal-Search')
+var myModal = document.getElementId('Modal-Search');
 
 
 

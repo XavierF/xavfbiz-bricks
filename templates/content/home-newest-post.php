@@ -1,5 +1,5 @@
 
-<div class="container pb-2 pt-sm-2 pt-md-5 g-0">
+<div class="container py-4 pt-md-5 g-0">
 
 	<div class="row text-center pb-md-4">
 	
@@ -22,7 +22,7 @@
 	<div class="container"><!--post container -->
 
 
-		<div class="row py-3 g-0">
+		<div class="row py-2 py-md-3 g-0">
 
 			<div id="article-wrapper" class="col">       
 
