@@ -5,7 +5,6 @@
  * Template Name: wp-block-embed
  * Template Post Type: post, page
  *
- * 
  */
  ?>
 
@@ -22,22 +21,31 @@
 
 		<img class="is-background img-fluid" src='<?php the_post_thumbnail_url( 'brk_big' ); ?>' alt='<?php brk_thumbnail_alt(); ?>' loading="lazy" /> 
 
-		<div class="container post-masthead d-flex align-items-end text-light">
+	<div class="container post-masthead d-flex align-items-end text-light">
 
-			<div class="row justify-content-start">
-				<h4 class="post-title"><?php the_title(); ?></h4>
-			</div><!--title -->
+		<div class="row w-100 g-0">
+
+				<div class="col-md w-50 d-flex">
+					<h4 class="post-title"><?php the_title(); ?></h4>
+				</div>
+
+				<div class="col-md w-50 d-flex flex-column align-items-end">
+					<p><small class="cite"><?php echo esc_html( get_field('cite') ); ?></small></p>
+				</div>
+				
+				
+		</div><!--.row -->
 
 	</div><!--container--->
 
-</section><!--post-header-->
+	</section><!--post-header-->
 
-	<div class="container">
+		<div class="container">
 
 
-		<div class="row pt-2 pb-5">
+			<div class="row pt-2 pb-5">
 
-			<div id="article-wrapper" class="col">       
+				<div id="article-wrapper" class="col">       
 
 				<?php get_template_part( 'templates/content/single-embed', '' ); ?>
 

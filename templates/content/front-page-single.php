@@ -24,29 +24,42 @@
 	</div><!--.entry-content -->
 
 	<div class="entry-footer"> 
-	<div class="row">
 
-    
-		<div class="col">	<p class="card-text"><small class="text-muted"><?php esc_html_e( 'Posted By ', 'bricks' ); the_author(); ?>
-						  -  <?php the_time( get_option( 'date_format' ) ); ?> In: <?php the_category( ', ' ); ?> </small></p>
+		<div class="row">
 
-  	</div><!-- .col -->
-</div>
-<div class="row">
-		<div class="col-md">				  
+			<div class="col-md pb-2">
 
-			<div class="d-table-cell pe-1"><p>Tags:</p> </div>
+			
+				<p class="card-text"><small class="text-muted">
 
-			<div class="d-table-cell">	<?php the_tags( '', ' ', '' ); ?></div>
+				<?php esc_html_e( 'Posted By ', 'bricks' ); the_author(); ?> - <?php the_time( get_option( 'date_format' ) ); ?> 
+						  In: <?php the_category( ', ' ); ?> 
 
-		</div><!-- .col -->
+				</small></p>
 
-		<div class="col-md pt-2 btn-post-container">  
+  
+			</div><!-- .col-md -->
 
- 			<a href="<?php the_permalink(); ?>" class="btn btn-post initial"><?php esc_html_e( 'READ MORE',    '	bricks');?></a>
+		</div><!--.row -->	
 
-   	</div><!-- .col -->
-</div>
-	</div><!--entry-footer .row-->
+		<div class="row">
+
+			<div class="col-md d-flex tag-container">				  
+
+				<div class="d-table-cell pe-1"><p><small class="text-muted">Tags:</small></p> </div>
+
+				<div class="d-table-cell">	<?php the_tags( '', ' ', '' ); ?></div>
+
+			</div><!-- .col -md-->
+
+			<div class="col-md pt-2 pt-md-0 d-flex flex-column align-items-center align-items-md-end h-100 btn-post-container">  
+
+ 				<a href="<?php the_permalink(); ?>" class="btn btn-post mt-auto initial"><?php esc_html_e( 'READ MORE',    '	bricks');?></a>
+
+   		</div><!-- .col-md -->
+
+		</div><!-- .row -->
+
+	</div><!-- .entry-footer -->
 
 </article> <!-- #post-<?php the_ID(); ?> -->
