@@ -21,4 +21,19 @@
   }
 }
 
+.sidebar-footer-widget {
+
+ @include sidebar-bg($info);
+  ul {
+    padding-left: 0;
+    list-style-type: none;
+
+    li {
+      margin-bottom: 0.25rem;
+    }
+  }
+}
+
+
+
 

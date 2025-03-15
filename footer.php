@@ -2,7 +2,8 @@
 
 	<footer id="footer-wrapper" class="bg-dark text-light">
 
-		<?php
+
+    <?php
 
 		// get_template_part( 'templates/footer/footer', 'columns' );
 		get_template_part( 'templates/footer/footer', 'simple' );

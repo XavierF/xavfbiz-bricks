@@ -42,34 +42,42 @@
 
 		<div class="container">
 
-
 			<div class="row pt-2 pb-5">
 
 				<div id="article-wrapper" class="col">       
 
-				<?php get_template_part( 'templates/content/single-embed', '' ); ?>
+					<?php get_template_part( 'templates/content/single-embed', '' ); ?>
 
-				<nav class="nav">
-					<?php
-					previous_post_link( '<span class="nav-link me-auto">&laquo; %link</span>' );
-						next_post_link( '<span class="nav-link ms-auto">%link &raquo;</span>' );
-					?>
-				</nav>
+					<nav class="nav">
+						<?php
+						previous_post_link( '<span class="nav-link me-auto">&laquo; %link</span>' );
+							next_post_link( '<span class="nav-link ms-auto">%link &raquo;</span>' );
+						?>
+					</nav>
 					
-				<?php
-				if ( comments_open() || get_comments_number() ) {
-					comments_template(); }
-				?>
+					<?php
+					if ( comments_open() || get_comments_number() ) {
+						comments_template(); }
+					?>
 			
-			</div> <!-- #article-wrapper -->
+				</div> <!-- #article-wrapper -->
 
-			
+			</div><!-- .row -->
 
-		</div>
+		</div><!-- .container -->
 
-	</div>
+		<div class="container-fluid sidebar-footer-widget"><!-- begin sidebar-post -->
+
+			<?php get_sidebar('footer'); ?>
+
+		</div><!-- .container-fluid sidebar-footer-widget -->
+
+
+	
   
 	<?php endwhile ?>
+
+
 
 </main> <!-- #content-wrapper -->
 

@@ -36,7 +36,11 @@
 
 	</section> <!-- #section-->
 
-	
+	<div class="container-fluid sidebar-footer-widget"><!-- begin sidebar-post -->
+
+			<?php get_sidebar('footer'); ?>
+
+		</div><!-- .container-fluid sidebar-footer-widget -->	
  
 </main> <!-- #content-wrapper -->
 

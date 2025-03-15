@@ -208,6 +208,9 @@ a.navbar-brand.fw-light {
   .masthead {
     height: 30vw;
   }
+  .post-masthead {
+    height: 30vw;
+  }
   h1.site-title, .site-title.h1 {
     font-size: calc(2rem + 2vw);
   }
@@ -12388,6 +12391,21 @@ html {
   list-style-type: none;
 }
 #sidebar-main-wrapper ul li {
+  margin-bottom: 0.25rem;
+}
+
+.sidebar-footer-widget {
+  background: #141731;
+  color: #687EFF;
+}
+.sidebar-footer-widget a {
+  color: #687EFF;
+}
+.sidebar-footer-widget ul {
+  padding-left: 0;
+  list-style-type: none;
+}
+.sidebar-footer-widget ul li {
   margin-bottom: 0.25rem;
 }
 
