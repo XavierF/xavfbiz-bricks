@@ -27,8 +27,10 @@ $dark:                  $midniteBlue;
 
 
 $btn-hover:          rgba(54, 62, 98, 0.64);
+
 $body-bg:               $moonLite;
 
+//$body-bg:               lighten($midniteBlue,8%);
 
 $body-color:            $midniteBlue;
 
@@ -261,8 +263,8 @@ $navbar-dark-hover-color:             rgba($vividBlue, .75);
 //$card-spacer-x:                     $spacer;
 //$card-title-spacer-y:               $spacer * .5;
 //$card-border-width:                 $border-width;
-//$card-border-radius:                $border-radius;
-//$card-border-color:                 rgba($black, .125);
+  $card-border-radius:                $radius-0;
+  $card-border-color:                 rgba($vividBlue, .125);
 //$card-inner-border-radius:          subtract($card-border-radius, $card-border-width);
 //$card-cap-padding-y:                $card-spacer-y * .5;
 //$card-cap-padding-x:                $card-spacer-x;

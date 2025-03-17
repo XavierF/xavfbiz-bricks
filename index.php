@@ -8,8 +8,8 @@
 
 		<div class="container post-masthead d-flex align-items-end text-light">
 
-			<div class="row justify-content-start">
-				<h4 class="post-title text-uppercase">
+			<div class="row text-center text-md-start w-100 fade-in-out">
+				<h1 class="gen-title text-uppercase">
 					<?php
 					if ( is_home() ) {
 
@@ -26,7 +26,7 @@
 
 					}
 					?>
-				</h4>
+				</h1>
 			</div><!--title -->
 
 	</div><!--container--->
@@ -35,9 +35,9 @@
 
 	<div class="container">
 
-		<div class="row py-5 justify-content-start">
+		<div class="row pt-3 pt-md-5 justify-content-start">
 
-			<div id="loop-wrapper" class="col-sm-8 pt-4">
+			<div id="loop-wrapper" class="col-sm-8">
 				   
 				<?php
 				if ( have_posts() ) :

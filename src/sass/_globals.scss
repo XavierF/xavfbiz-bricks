@@ -17,7 +17,7 @@ html {
 
 ::selection {
   color: $light;
-  background-color: tint-color($primary, 15%);
+  background-color: $dark;
 }
 
 // Utility class to use img tag as a background

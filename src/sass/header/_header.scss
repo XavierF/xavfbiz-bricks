@@ -50,11 +50,10 @@
     display: none;
    }
    .has-img-background {
+      background-color: $dark !important;
       
   }
-  .post-masthead {
-    height: 10vw;
-  }
+  
   .post-title {
     color: $dark;
   }

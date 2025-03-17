@@ -4,7 +4,7 @@
 
 	
 
-	<?php the_post_thumbnail( 'brk_single', array( 'class' => 'img-fluid' ) ); ?>sup?
+	<?php the_post_thumbnail( 'brk_single', array( 'class' => 'img-fluid' ) ); ?>
 
 	<div>
 	

@@ -20,23 +20,23 @@
 	<section id="post-header" class="has-img-background container-fluid" ><!-- post header image -->
 
 		<img class="is-background img-fluid" src='<?php the_post_thumbnail_url( 'brk_big' ); ?>' alt='<?php brk_thumbnail_alt(); ?>' loading="lazy" /> 
+  
+		<div class="container post-masthead d-flex align-items-end text-light">
+	
+			<div class="row w-100 g-0">
 
-	<div class="container post-masthead d-flex align-items-end text-light">
 
-		<div class="row w-100 g-0">
+					<div class="col-md-9 d-flex text-center text-md-start fade-in-out">
+						<h1 class="post-title"><?php the_title(); ?></h1>
+					</div>
 
-				<div class="col-md w-50 d-flex">
-					<h4 class="post-title"><?php the_title(); ?></h4>
-				</div>
-
-				<div class="col-md w-50 d-flex flex-column align-items-end">
-					<p><small class="cite"><?php echo esc_html( get_field('cite') ); ?></small></p>
-				</div>
-				
-				
-		</div><!--.row -->
-
-	</div><!--container--->
+					<div class="col-md d-flex flex-column align-items-end">
+						<p class="mt-auto mb-0"><small class="cite"><?php echo esc_html( get_field('cite') ); ?></small></p>
+					</div>
+					
+			</div><!--.row -->
+	
+		</div><!--container post-masthead--->
 
 	</section><!--post-header-->
 

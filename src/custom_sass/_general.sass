@@ -10,6 +10,7 @@ $iron: #4C4C4C
 $tungsten: #333333
 $deepBlue: #1E008C
 $midniteBlueText: #141731
+$vividBlue: #687EFF
 
 //------------------------ TYPOGRAPHY ----------------------------//
 
@@ -77,9 +78,11 @@ h1.site-title
   font-weight: 400
   font-size: calc(.7rem + 1.5vw)
   @extend .mt-4
+  color: lighten($vividBlue,5%)
 
 p.desc
   font-size: calc(.4rem + 1.5vw)
+  color: lighten($vividBlue,5%)
 
 
 
@@ -107,14 +110,17 @@ p.desc
 //.entry-footer 
   
 // ------------------- POST CARDS -----------------------------------
+.card
+  border-top: 0 !important
+  border-left: 0 !important
+  border-right: 0 !important
+
 .card-body
   padding-left: .75rem !important
   padding-right: .75rem !important
-
-
-.post-title
-  height: 40px
-  width: 100%
+  .post-title
+    height: 40px
+    width: 100%
 
 
 .img-thumb
@@ -156,6 +162,7 @@ p.desc
   @extend .mt-4 !optional
 
 
+
 iframe 
    display: flex 
    flex-direction: row
@@ -175,6 +182,35 @@ iframe
    overflow-x: clip
 
 
+  .post-title
+    margin-bottom: 2rem
+    margin-left: auto
+    margin-right: auto
+    color: lighten($vividBlue,5%)
+
+.post-masthead
+  padding: 0
+
+
+.archive
+  .post-masthead
+    padding: 0
+
+.gen-title
+  margin-bottom: 4.5rem
+  margin-left: auto !important
+  margin-right: auto !important
+  color: lighten($vividBlue,5%)
+
+
+article
+  overflow: hidden
+  p
+    @extend .text-wrap
+
+
+
+
 
 
 
@@ -184,10 +220,12 @@ iframe
 .search
   .post-masthead
     border-bottom: 1px solid #687EFF
+    height: 40vw
   .is-background
     display: none
-  h4
-    font-size: 2rem
+  .gen-title
+    margin-bottom: 2rem
+
 
 
 //-------------------------- MODAL SEARCH ------------------------
