@@ -1,5 +1,5 @@
 
-<div class="container py-4 pt-md-5 g-0">
+<div class="container py-md-4 pt-md-5 g-0">
 
 	<div class="row text-center pb-md-4">
 	
@@ -8,15 +8,15 @@
 	</div>
 	
 	<div class="row g-0">
-	
+
 		<?php
 
-		$brk_cards_query = new WP_Query( $args );
+		$brk_query = new WP_Query( $args );
 
 
 		// WP Loop
-		while ( $brk_cards_query->have_posts() ) :
-			$brk_cards_query->the_post();
+		while ( $brk_query->have_posts() ) :
+			$brk_query->the_post();
 			?>
 	
 	<div class="container"><!--post container -->
@@ -35,6 +35,8 @@
 
 		</div><!-- .row .g-o -->
 
+ 		<hr class="hr d-block d-md-none mt-1 mb-0" /> <!-- horizontal rule -->
+	
 	</div><!--post container -->
 	
 			<?php
@@ -45,6 +47,6 @@
 		wp_reset_postdata();
 		?>
 	
-	</div>
+	</div><!-- .row -->
 
-</div>
+</div><!-- .container -->

@@ -9,7 +9,6 @@
 	
 	<div class="container">
 
-		<?php brk_breadcrumbs(); ?>
 
 		<div class="row py-5">
 

@@ -30,6 +30,11 @@ body h1 a, body .h1 a, body h2 a, body .h2 a, body h3 a, body .h3 a, body h4 a, 
   font-family: "Oswald", sans-serif !important;
 }
 
+.hr {
+  color: #687EFF;
+  opacity: 0.5;
+}
+
 .navbar-brand, .nav-link {
   font-size: 0.7rem !important;
   font-family: "Advent-Pro", sans-serif !important;
@@ -4576,7 +4581,7 @@ textarea.form-control-lg {
   --bs-card-title-color: #141731;
   --bs-card-subtitle-color: #141731 !important;
   --bs-card-border-width: var(--bs-border-width);
-  --bs-card-border-color: rgba(104, 126, 255, 0.125);
+  --bs-card-border-color: #687EFF;
   --bs-card-border-radius: 0;
   --bs-card-box-shadow: ;
   --bs-card-inner-border-radius: calc(0 - (var(--bs-border-width)));
