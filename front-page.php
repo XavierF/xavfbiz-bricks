@@ -10,28 +10,22 @@
 		?>
 	</section> <!-- #section-hero -->
 
-  
   <section id="newest-blog entry">
-  	<?php
 
+  	<?php
 		$args = array(
 			'post_type' => 'post',
 			'posts_per_page' => '1'
-
 		);
-
 		get_template_part( 'templates/content/home', 'newest-post', $args );
-
 		?>
 
   </section>	
 
-	<section id="section-posts">
+	<section id="posts">
 
 		<?php
-
 		get_template_part( 'templates/content/home', 'latest-posts' );
-
 		?>
 
 	</section> <!-- #section-->
@@ -40,7 +34,7 @@
 
 			<?php get_sidebar('footer'); ?>
 
-		</div><!-- .container-fluid sidebar-footer-widget -->	
+	 </div><!-- .container-fluid sidebar-footer-widget -->	
  
 </main> <!-- #content-wrapper -->
 

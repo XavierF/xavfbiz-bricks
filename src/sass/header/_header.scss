@@ -25,7 +25,7 @@
     transition: .5s ease-in-out;
 
     &.header-scrolled {
-      background-color: rgba(54, 62, 98, 0.70) !important;
+      background-color: rgba(54, 62, 98, 0.95) !important;
       transition: .5s ease-in-out;
     }
   }
@@ -41,12 +41,12 @@
     transition: .5s ease-in-out;
 
     &.header-scrolled {
-      background-color: rgba(54, 62, 98, 0.70) !important;
+      background-color: rgba(54, 62, 98, 0.95) !important;
       transition: .5s ease-in-out;
     }
    }
 
-   .is-back-ground {
+   .is-background {
     display: none;
    }
    .has-img-background {

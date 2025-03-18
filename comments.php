@@ -60,7 +60,7 @@
 
 	comment_form(
 		array(
-			'class_submit'  => 'submit btn btn-primary',
+			'class_submit'  => 'submit btn btn-post',
 		)
 	);
 

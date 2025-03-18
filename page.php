@@ -17,8 +17,6 @@
 
 			<?php
 
-			brk_breadcrumbs();
-
 			// Get this page slug
 			$slug = $post->post_name;
 
@@ -32,7 +30,13 @@
 
 			?>
 			
-		</div>
+		</div><!-- .container -->
+
+		<div class="container-fluid sidebar-footer-widget"><!-- begin sidebar-post -->
+
+			<?php get_sidebar('footer'); ?>
+
+		</div><!-- .container-fluid sidebar-footer-widget -->
 
 	<?php endwhile ?>
 

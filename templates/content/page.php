@@ -12,7 +12,7 @@
 			}
 			?>
 
-			<div>
+			<div><!-- .col -->
 			
 				<?php
 				the_content();
@@ -28,10 +28,10 @@
 
 				?>
 
-			</div>
+			</div> <!-- . -->
 
-		</div>
+		</div><!-- . -->
 
-	</div>
+	</div><!-- .row -->
 
 </article> <!-- #post-<?php the_ID(); ?> -->

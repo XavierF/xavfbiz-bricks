@@ -36,11 +36,10 @@
   </div><!-- .post-info -->
    
   <div class="btn-container"> 
-
     <a href="<?php the_permalink(); ?>" class="btn btn-post mx-auto">
       <?php esc_html_e( 'READ MORE','bricks');?>
     </a>
-   </div> 
+   </div> <!-- .btn-container -->
 
  </div><!-- .card-body -->
     

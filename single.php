@@ -32,9 +32,9 @@
 
 			<?php get_sidebar(''); ?>
 
-		</div>
+		</div><!-- .row -->
 
-	</div>
+	</div><!-- .container -->
   
 	<?php endwhile ?>
 
