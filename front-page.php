@@ -10,7 +10,7 @@
 		?>
 	</section> <!-- #section-hero -->
 
-  <section id="newest-blog entry">
+  <section id="newest-blog-entry">
 
   	<?php
 		$args = array(

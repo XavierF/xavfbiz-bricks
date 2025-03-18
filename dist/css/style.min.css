@@ -12360,7 +12360,7 @@ html {
   height: 100%;
 }
 #header-wrapper.header-scrolled .custom-logo {
-  height: 60px;
+  height: 50px;
 }
 
 .home #header-wrapper, .archive #header-wrapper, .post-template-single-embed #header-wrapper {
