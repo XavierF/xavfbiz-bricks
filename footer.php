@@ -68,7 +68,9 @@
       </div><!-- modal header -->
 
       <div class="modal-body d-flex justify-content-center">
-        <!-- .contact form goes here... -->
+
+       <?php echo do_shortcode('[contact-form-7 id="789422d" title="Contact form 1"]'); ?>
+
       </div>
 
       <div class="modal-footer d-flex justify-content-center">
@@ -97,6 +99,9 @@ jQuery(document).ready(function($) {
   $('li.connect a').attr( { 'data-bs-toggle':"modal", 'data-bs-target':"#contactModal" } );
 
 });
+
+
+
 
 
 

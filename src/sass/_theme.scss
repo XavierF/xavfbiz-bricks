@@ -32,7 +32,7 @@ $body-bg:               $moonLite;
 
 //$body-bg:               lighten($midniteBlue,8%);
 
-$body-color:            $midniteBlue;
+$body-color:            $info;
 
 $padding-y-sm:          .25rem;
 $padding-x-sm:          .25rem;
@@ -99,7 +99,7 @@ $font-family-sans-serif: system-ui, -apple-system, 'Segoe UI', 'Advent Pro', 'He
 
 // --- Links ---
 
-$link-color:                     $dark;
+$link-color:                     $info;
 $link-decoration: none; // underline;
 // $link-shade-percentage:          20%;
 // $link-hover-color:               shift-color($link-color, $link-shade-percentage);
@@ -271,8 +271,8 @@ $navbar-dark-hover-color:             rgba($vividBlue, .75);
 //$card-cap-bg:                       rgba($black, .03);
 //$card-cap-color:                    null;
 //$card-height:                       null;
-$card-title-color:                    $dark;
-$card-color:                          $dark;
+$card-title-color:                    $info;
+$card-color:                          $info;
 $card-subtitle-color:                 $dark !important;
 //$card-bg:                           $white;
 //$card-img-overlay-padding:          $spacer;

@@ -33,11 +33,11 @@
 
 </section><!--post-header-->
 
-	<div class="container">
+	<div class="container-lg">
 
 		<div class="row pt-3 pt-md-5 justify-content-start">
 
-			<div id="loop-wrapper" class="col-sm-8">
+			<div id="loop-wrapper" class="col-lg-7 px-lg-2">
 				   
 				<?php
 				if ( have_posts() ) :
@@ -67,9 +67,9 @@
 
 			<?php get_sidebar(); ?>
 
-		</div>
+		</div> <!-- .row -->
 
-	</div>
+	</div><!--.container  -->
 		   
 </main> <!-- #content-wrapper -->
 
