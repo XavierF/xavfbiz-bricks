@@ -1,4 +1,4 @@
-<aside id="sidebar-main-wrapper" class="col-lg-5 mt-5 mt-md-0 ps-lg-4">
+<aside id="sidebar-main-wrapper" class="col-lg-5 mt-5 mt-md-0 ps-lg-5">
 
 	<?php dynamic_sidebar( 'sidebar-main' ); ?>
 

@@ -35,7 +35,7 @@
 
 	<div class="container-lg">
 
-		<div class="row pt-3 pt-md-5 justify-content-start">
+		<div class="row pt-3 pt-md-5 pe-md-2 justify-content-start">
 
 			<div id="loop-wrapper" class="col-lg-7 px-lg-2">
 				   
