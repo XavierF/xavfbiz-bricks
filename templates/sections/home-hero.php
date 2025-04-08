@@ -2,7 +2,7 @@
 
 
 
-<img class="is-background img-fluid" src='<?php the_post_thumbnail_url( 'brk_big' ); ?>' alt='<?php brk_thumbnail_alt(); ?>' loading="lazy" /> 
+<img class="is-background img-fluid" src='<?php the_post_thumbnail_url( 'brk_big' ); ?>' alt='<?php brk_thumbnail_alt(); ?>' fetchpriority="high" /> 
 
 
 	<div class="fade-in-out">

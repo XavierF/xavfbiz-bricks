@@ -12299,7 +12299,7 @@ html {
 #backtotop {
   position: fixed;
   right: 25px;
-  bottom: 25px;
+  bottom: 95px;
   z-index: 1;
   opacity: 1;
 }
