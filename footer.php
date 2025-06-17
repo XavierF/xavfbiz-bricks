@@ -1,6 +1,6 @@
 	</div> <!-- #page-wrapper -->
 
-	<footer id="footer-wrapper" class="bg-dark text-light">
+	<footer id="footer-wrapper" class="bg-darker text-light">
 
 
     <?php
